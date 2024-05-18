@@ -536,15 +536,14 @@ TextButton.MouseButton1Click:Connect(function()
 	
 		while true do
 			msg.Text = "This Game Got Fucked By Team8x8x8x8 LeL"
-			wait(1.5)
+			wait(2.5)
 			msg.Text = "No Backdoor? no problem!"
-			wait(1.5)
+			wait(2.5)
 			msg.Text = "Team8x8x8x8 Reigns supreme!"
-			wait(1.5)
+			wait(2.5)
                         msg.text = "Logic is cool"
                         wait(1.5)
-
-		end
+      end
 end)
 
 local TextLabel = Instance.new("TextLabel")
