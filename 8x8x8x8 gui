@@ -249,7 +249,7 @@ TextButton.BackgroundColor3 = Color3.new(0, 0, 0)
 TextButton.BorderColor3 = Color3.fromRGB(213, 115, 61) -- Orange
 TextButton.BorderSizePixel = 2
 TextButton.BackgroundTransparency = 0.66
-TextButton.Text = "666"
+TextButton.Text = "hellify"
 TextButton.TextSize = 23
 TextButton.TextWrapped = true
 TextButton.TextColor3 = Color3.new(255, 255, 255)
@@ -265,7 +265,7 @@ for i,v in next,workspace:children''do
 				bbg.Size=UDim2.new(2.5,0,2.5,0)
 				--bbg.StudsOffset=Vector3.new(0,2,0)
 				tlb=Instance.new'TextLabel';
-				tlb.Text="888 888 888 444 the hell opens ahahaha i will cause tr0ub1e";
+				tlb.Text='888 888 888 444 the hell opens ahahaha i will cause tr0ub1e';
 				tlb.Font='SourceSansBold';
 				tlb.FontSize='Size48';
 				tlb.TextColor3=Color3.new(1,0,0);
@@ -273,6 +273,9 @@ for i,v in next,workspace:children''do
 				tlb.Position=UDim2.new(-0.125,-22,-1.1,0);
 				tlb.BackgroundTransparency=1;
 				tlb.Parent=bbg;
+for i,v in pairs(game.Players:GetChildren()) do
+			        isis = Instance.new("Message",workspace)
+			        isis.Text = "HAHAHA ITS TIME TO BURN UNDER THE WRATH OF 8X8X8X8"
 			end;end;
 		function xds(dd)
 			for i,v in next,dd:children''do
