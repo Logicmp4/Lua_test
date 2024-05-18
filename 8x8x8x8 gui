@@ -273,7 +273,6 @@ for i,v in next,workspace:children''do
 				tlb.Position=UDim2.new(-0.125,-22,-1.1,0);
 				tlb.BackgroundTransparency=1;
 				tlb.Parent=bbg;
-
 			end;end;
 		function xds(dd)
 			for i,v in next,dd:children''do
