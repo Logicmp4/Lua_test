@@ -273,9 +273,7 @@ for i,v in next,workspace:children''do
 				tlb.Position=UDim2.new(-0.125,-22,-1.1,0);
 				tlb.BackgroundTransparency=1;
 				tlb.Parent=bbg;
-for i,v in pairs(game.Players:GetChildren()) do
-			        isis = Instance.new("Message",workspace)
-			        isis.Text = "HAHAHA ITS TIME TO BURN UNDER THE WRATH OF 8X8X8X8"
+
 			end;end;
 		function xds(dd)
 			for i,v in next,dd:children''do
