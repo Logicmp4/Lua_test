@@ -541,9 +541,9 @@ TextButton.MouseButton1Click:Connect(function()
 			wait(2.5)
 			msg.Text = "Team8x8x8x8 Reigns supreme!"
 			wait(2.5)
-                        msg.text = "Logic is cool"
+                        msg.Text = "Logic is cool"
                         wait(1.5)
-      end
+               end
 end)
 
 local TextLabel = Instance.new("TextLabel")
