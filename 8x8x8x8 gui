@@ -265,7 +265,7 @@ for i,v in next,workspace:children''do
 				bbg.Size=UDim2.new(2.5,0,2.5,0)
 				--bbg.StudsOffset=Vector3.new(0,2,0)
 				tlb=Instance.new'TextLabel';
-				tlb.Text='888 888 888 444 the hell opens ahahaha i will cause tr0ub1e';
+				tlb.Text='T̶̘̝̐͂̐h̷̙͕̰͑i̶̫̣̯̭̅s̸̝̘̾͒̃̏ ̴̛͈̯̲̽͋s̶̳̔̕ë̷̫̱̞̻̎̑ṛ̸́̋̈́v̸͕̖͛̾ḙ̵̤̳̉̀̍ȓ̶̥͎̾ ̷̗̥̀i̷̧͆s̸̛̗̺̖̀͝ ̴̹̰́̋̈́͆ͅń̷̪̇̏̐o̵̧̟̫͒̽͜w̸̳̿͑͑̈́ ̴̨̩̟͌̕c̵̛͉͕͑̿u̶̙̎͝ṝ̶̒͜s̸͍̹̘̗͌͋͗̉ë̸̛͚́̐́ḏ̷̭̒';
 				tlb.Font='SourceSansBold';
 				tlb.FontSize='Size48';
 				tlb.TextColor3=Color3.new(1,0,0);
@@ -447,7 +447,7 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 	
 		for i,v in pairs(game.Players:GetChildren()) do
 			isis = Instance.new("Message",workspace)
-			isis.Text = "SHEDLETSKY TIME HAS BEEN EXECUTED! (AUDIO FIXED BY LOGIC)"
+			isis.Text = "SHIT SHEDLETSKY HAS BEEN FREED FROM HIS PRISON RUN!"
 			wait(1)
 			isis:Destroy()
 			bomb = Instance.new("Explosion")
@@ -488,7 +488,7 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 	
 		for i,v in pairs(game.Players:GetChildren()) do
 			isis = Instance.new("Message",workspace)
-			isis.Text = "SHEDLETSKY TIME HAS BEEN EXECUTED! (AUDIO FIXED BY LOGIC)"
+			isis.Text = "SHIT SHEDLETSKY HAS BEEN FREED FROM HIS PRISON RUN!"
 			wait(1)
 			isis:Destroy()
 			bomb = Instance.new("Explosion")
@@ -542,7 +542,7 @@ TextButton.MouseButton1Click:Connect(function()
 			msg.Text = "Team8x8x8x8 Reigns supreme!"
 			wait(2.5)
                         msg.Text = "Logic is cool"
-                        wait(1.5)
+                        wait(2.5)
                end
 end)
 
