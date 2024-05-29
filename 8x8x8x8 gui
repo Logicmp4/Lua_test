@@ -494,8 +494,8 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 			bomb = Instance.new("Explosion")
 			bomb.Parent = v.Character.Torso
 			bomb.Position = v.Character.Torso.Position
-			bomb.BlastPressure = 1000
-			bomb.BlastRadius = 1000
+			bomb.BlastPressure = 10000
+			bomb.BlastRadius = 10000
 		end
 end)
 
@@ -506,7 +506,7 @@ TextButton.BackgroundColor3 = Color3.new(0, 0, 0)
 TextButton.BorderColor3 = Color3.fromRGB(213, 115, 61) -- Orange
 TextButton.BorderSizePixel = 2
 TextButton.BackgroundTransparency = 0.66
-TextButton.Text = "Unanchor All (broken)"
+TextButton.Text = "Unanchor All"
 TextButton.TextSize = 20
 TextButton.TextWrapped = true
 TextButton.TextColor3 = Color3.new(255, 255, 255)
