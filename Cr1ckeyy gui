@@ -332,7 +332,7 @@ local tubers93		= Instance.new("Sound")
 		tubers93.SoundId		= "rbxassetid://7019388713"
 		tubers93.Playing		= true
 		tubers93.Looped		= true
-		tubers93.Pitch      = 0.9
+		tubers93.Pitch      = 0.8
 		tubers93.Volume		= 100000000000000000000000
 end)
 
@@ -453,8 +453,8 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 			bomb = Instance.new("Explosion")
 			bomb.Parent = v.Character.Torso
 			bomb.Position = v.Character.Torso.Position
-			bomb.BlastPressure = 1000
-			bomb.BlastRadius = 1000
+			bomb.BlastPressure = 10000
+			bomb.BlastRadius = 10000
 		end
 		print("Music executed!")
 	
