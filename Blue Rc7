@@ -1,0 +1,484 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local rc7 = Instance.new("ScreenGui")
+local main = Instance.new("ImageLabel")
+local output = Instance.new("TextBox")
+local inputscroll = Instance.new("ScrollingFrame")
+local input = Instance.new("TextBox")
+local Execute = Instance.new("TextButton")
+local Clear = Instance.new("TextButton")
+local Open = Instance.new("TextButton")
+local Dex = Instance.new("TextButton")
+local RX6 = Instance.new("TextButton")
+local Save = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local Mini = Instance.new("TextButton")
+local lock = Instance.new("ImageLabel")
+local Close_2 = Instance.new("TextButton")
+local Mini_2 = Instance.new("TextButton")
+local Submit = Instance.new("TextButton")
+local pass = Instance.new("TextBox")
+local user = Instance.new("TextBox")
+
+--Properties:
+
+rc7.Name = "rc7"
+rc7.Parent = game.CoreGui
+rc7.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+rc7.ResetOnSpawn = false
+
+main.Name = "main"
+main.Parent = rc7
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+main.BorderSizePixel = 0
+main.Position = UDim2.new(0.124521069, 0, 0.101516925, 0)
+main.Size = UDim2.new(0, 337, 0, 341)
+main.Visible = false
+main.Image = "http://www.roblox.com/asset/?id=12263991723"
+
+output.Name = "output"
+output.Parent = main
+output.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+output.BorderColor3 = Color3.fromRGB(0, 0, 0)
+output.BorderSizePixel = 0
+output.Position = UDim2.new(0.0356083103, 0, 0.844574809, 0)
+output.Size = UDim2.new(0, 285, 0, 49)
+output.Font = Enum.Font.Code
+output.Text = ""
+output.TextColor3 = Color3.fromRGB(255, 0, 0)
+output.TextSize = 14.000
+output.TextXAlignment = Enum.TextXAlignment.Left
+output.TextYAlignment = Enum.TextYAlignment.Top
+output.TextWrapped = true
+
+inputscroll.Name = "inputscroll"
+inputscroll.Parent = main
+inputscroll.Active = true
+inputscroll.BackgroundColor3 = Color3.fromRGB(207, 207, 207)
+inputscroll.BorderColor3 = Color3.fromRGB(181, 181, 181)
+inputscroll.Position = UDim2.new(0.0356083103, 0, 0.0997067466, 0)
+inputscroll.Size = UDim2.new(0, 285, 0, 225)
+inputscroll.CanvasSize = UDim2.new(20, 0, 50, 0)
+inputscroll.ScrollBarThickness = 7
+
+input.Name = "input"
+input.Parent = inputscroll
+input.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+input.BorderColor3 = Color3.fromRGB(0, 0, 0)
+input.BorderSizePixel = 0
+input.Size = UDim2.new(0, 6740, 0, 17050)
+input.ClearTextOnFocus = false
+input.Font = Enum.Font.Code
+input.MultiLine = true
+input.Text = ""
+input.TextColor3 = Color3.fromRGB(0, 0, 0)
+input.TextSize = 14.000
+input.TextWrapped = true
+input.TextXAlignment = Enum.TextXAlignment.Left
+input.TextYAlignment = Enum.TextYAlignment.Top
+
+Execute.Name = "Execute"
+Execute.Parent = main
+Execute.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Execute.BackgroundTransparency = 1.000
+Execute.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Execute.BorderSizePixel = 0
+Execute.Position = UDim2.new(0.320474774, 0, 0.76539588, 0)
+Execute.Size = UDim2.new(0, 92, 0, 27)
+Execute.Font = Enum.Font.SourceSansBold
+Execute.Text = "Execute"
+Execute.TextColor3 = Color3.fromRGB(20, 74, 110)
+Execute.TextSize = 19.000
+
+Clear.Name = "Clear"
+Clear.Parent = main
+Clear.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Clear.BackgroundTransparency = 1.000
+Clear.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Clear.BorderSizePixel = 0
+Clear.Position = UDim2.new(0.608308613, 0, 0.76539588, 0)
+Clear.Size = UDim2.new(0, 92, 0, 27)
+Clear.Font = Enum.Font.SourceSansBold
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(20, 74, 110)
+Clear.TextSize = 19.000
+
+Open.Name = "Open"
+Open.Parent = main
+Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open.BackgroundTransparency = 1.000
+Open.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Open.BorderSizePixel = 0
+Open.Position = UDim2.new(0.0356083103, 0, 0.76539588, 0)
+Open.Size = UDim2.new(0, 92, 0, 27)
+Open.Font = Enum.Font.SourceSansBold
+Open.Text = "Open"
+Open.TextColor3 = Color3.fromRGB(20, 74, 110)
+Open.TextSize = 19.000
+
+Dex.Name = "Dex"
+Dex.Parent = main
+Dex.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dex.BackgroundTransparency = 1.000
+Dex.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Dex.BorderSizePixel = 0
+Dex.Position = UDim2.new(0.905044496, 0, 0.906158328, 0)
+Dex.Size = UDim2.new(0, 26, 0, 28)
+Dex.Font = Enum.Font.SourceSans
+Dex.Text = ""
+Dex.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dex.TextSize = 14.000
+
+RX6.Name = "RX6"
+RX6.Parent = main
+RX6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RX6.BackgroundTransparency = 1.000
+RX6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RX6.BorderSizePixel = 0
+RX6.Position = UDim2.new(0.905044496, 0, 0.800586522, 0)
+RX6.Size = UDim2.new(0, 26, 0, 28)
+RX6.Font = Enum.Font.SourceSans
+RX6.Text = ""
+RX6.TextColor3 = Color3.fromRGB(0, 0, 0)
+RX6.TextSize = 14.000
+
+Save.Name = "Save"
+Save.Parent = main
+Save.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Save.BackgroundTransparency = 1.000
+Save.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Save.BorderSizePixel = 0
+Save.Position = UDim2.new(0.905044496, 0, 0.366568923, 0)
+Save.Size = UDim2.new(0, 26, 0, 28)
+Save.Font = Enum.Font.SourceSans
+Save.Text = ""
+Save.TextColor3 = Color3.fromRGB(0, 0, 0)
+Save.TextSize = 14.000
+
+Close.Name = "Close"
+Close.Parent = main
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.881305635, 0, 0, 0)
+Close.Size = UDim2.new(0, 40, 0, 22)
+Close.Font = Enum.Font.SourceSans
+Close.Text = ""
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 14.000
+
+Mini.Name = "Mini"
+Mini.Parent = main
+Mini.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Mini.BackgroundTransparency = 1.000
+Mini.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Mini.BorderSizePixel = 0
+Mini.Position = UDim2.new(0.608308613, 0, 0, 0)
+Mini.Size = UDim2.new(0, 40, 0, 22)
+Mini.Font = Enum.Font.SourceSans
+Mini.Text = ""
+Mini.TextColor3 = Color3.fromRGB(0, 0, 0)
+Mini.TextSize = 14.000
+
+lock.Name = "lock"
+lock.Parent = rc7
+lock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lock.BorderColor3 = Color3.fromRGB(0, 0, 0)
+lock.BorderSizePixel = 0
+lock.Position = UDim2.new(0.124521069, 0, 0.101516925, 0)
+lock.Size = UDim2.new(0, 337, 0, 341)
+lock.Image = "http://www.roblox.com/asset/?id=13695440070"
+
+Close_2.Name = "Close"
+Close_2.Parent = lock
+Close_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_2.BackgroundTransparency = 1.000
+Close_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close_2.BorderSizePixel = 0
+Close_2.Position = UDim2.new(0.881305635, 0, 0, 0)
+Close_2.Size = UDim2.new(0, 40, 0, 22)
+Close_2.Font = Enum.Font.SourceSans
+Close_2.Text = ""
+Close_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close_2.TextSize = 14.000
+
+Mini_2.Name = "Mini"
+Mini_2.Parent = lock
+Mini_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Mini_2.BackgroundTransparency = 1.000
+Mini_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Mini_2.BorderSizePixel = 0
+Mini_2.Position = UDim2.new(0.608308613, 0, 0, 0)
+Mini_2.Size = UDim2.new(0, 40, 0, 22)
+Mini_2.Font = Enum.Font.SourceSans
+Mini_2.Text = ""
+Mini_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Mini_2.TextSize = 14.000
+
+Submit.Name = "Submit"
+Submit.Parent = lock
+Submit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Submit.BackgroundTransparency = 1.000
+Submit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Submit.BorderSizePixel = 0
+Submit.Position = UDim2.new(0.341246277, 0, 0.560117304, 0)
+Submit.Size = UDim2.new(0, 98, 0, 19)
+Submit.Font = Enum.Font.SourceSans
+Submit.Text = ""
+Submit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Submit.TextSize = 14.000
+
+pass.Name = "pass"
+pass.Parent = lock
+pass.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+pass.BackgroundTransparency = 1.000
+pass.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pass.BorderSizePixel = 0
+pass.Position = UDim2.new(0.267062306, 0, 0.480938405, 0)
+pass.Size = UDim2.new(0, 150, 0, 17)
+pass.Font = Enum.Font.SourceSansBold
+pass.PlaceholderColor3 = Color3.fromRGB(20, 74, 110)
+pass.Text = ""
+pass.TextColor3 = Color3.fromRGB(20, 74, 110)
+pass.TextSize = 14.000
+pass.TextWrapped = true
+
+user.Name = "user"
+user.Parent = lock
+user.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+user.BackgroundTransparency = 1.000
+user.BorderColor3 = Color3.fromRGB(0, 0, 0)
+user.BorderSizePixel = 0
+user.Position = UDim2.new(0.267062306, 0, 0.39296189, 0)
+user.Size = UDim2.new(0, 150, 0, 17)
+user.Font = Enum.Font.SourceSansBold
+user.PlaceholderColor3 = Color3.fromRGB(20, 74, 110)
+user.Text = ""
+user.TextColor3 = Color3.fromRGB(20, 74, 110)
+user.TextSize = 14.000
+user.TextWrapped = true
+
+-- Scripts:
+
+local function KRVMMOV_fake_script() -- Execute.LocalScript 
+	local script = Instance.new('LocalScript', Execute)
+
+	local Execute = script.Parent
+	local rc7 = script.Parent.Parent.Parent
+	local output = script.Parent.Parent.output
+	
+	Execute.MouseButton1Down:connect(function()
+		local success, result = pcall(function()
+			assert(loadstring(rc7.main.inputscroll.input.Text))()
+		end)
+	
+		if not success then
+			output.Text = result
+		end
+		
+		
+	end)
+	
+end
+coroutine.wrap(KRVMMOV_fake_script)()
+local function TEANFPN_fake_script() -- Clear.LocalScript 
+	local script = Instance.new('LocalScript', Clear)
+
+	local Clear = script.Parent
+	local input = script.Parent.Parent.inputscroll.input
+	
+	Clear.MouseButton1Down:connect(function()
+		input.Text = " "
+	end)
+	
+end
+coroutine.wrap(TEANFPN_fake_script)()
+local function MLBXHH_fake_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	local Open = script.Parent
+	
+	Open.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/ScriptHub"))()
+	end)
+	
+end
+coroutine.wrap(MLBXHH_fake_script)()
+local function ZGFKQDF_fake_script() -- Dex.LocalScript 
+	local script = Instance.new('LocalScript', Dex)
+
+	local Dex = script.Parent
+	
+	Dex.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
+	end)
+	
+end
+coroutine.wrap(ZGFKQDF_fake_script)()
+local function NAKNZ_fake_script() -- RX6.LocalScript 
+	local script = Instance.new('LocalScript', RX6)
+
+	local RX6 = script.Parent
+	
+	RX6.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects('rbxassetid://364364477')[1].Source)()
+	end)
+	
+	
+end
+coroutine.wrap(NAKNZ_fake_script)()
+local function IMKUNGC_fake_script() -- Save.LocalScript 
+	local script = Instance.new('LocalScript', Save)
+
+	local Save = script.Parent
+	local input = script.Parent.Parent.inputscroll.input
+	
+	Save.MouseButton1Down:connect(function()
+		setclipboard(input.Text)
+	end)
+	
+	
+end
+coroutine.wrap(IMKUNGC_fake_script)()
+local function TFNMDWS_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	local Close = script.Parent
+	local main = script.Parent.Parent
+	
+	Close.MouseButton1Down:connect(function()
+		main.Visible = false
+	end)
+	
+	
+end
+coroutine.wrap(TFNMDWS_fake_script)()
+local function JKXTW_fake_script() -- main.Dragify 
+	local script = Instance.new('LocalScript', main)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(JKXTW_fake_script)()
+local function FZCLC_fake_script() -- Close_2.LocalScript 
+	local script = Instance.new('LocalScript', Close_2)
+
+	local Close = script.Parent
+	local main = script.Parent.Parent
+	
+	Close.MouseButton1Down:connect(function()
+		main.Visible = false
+	end)
+	
+	
+end
+coroutine.wrap(FZCLC_fake_script)()
+local function LPYO_fake_script() -- lock.Dragify 
+	local script = Instance.new('LocalScript', lock)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(LPYO_fake_script)()
+local function QPMWJZS_fake_script() -- Submit.LocalScript 
+	local script = Instance.new('LocalScript', Submit)
+
+	local submit = script.Parent
+	local pass = script.Parent.Parent.pass
+	local main = script.Parent.Parent.Parent.main
+	local lock = script.Parent.Parent
+	
+	submit.MouseButton1Down:connect(function()
+		if pass.Text == "" then
+			main.Visible = true
+			main.Position = lock.Position
+			lock.Visible = false
+		else
+			pass.Text = "Wrong Password!"
+			wait(2)
+			pass.Text = " "
+		end
+	end)
+	
+	
+end
+coroutine.wrap(QPMWJZS_fake_script)()
