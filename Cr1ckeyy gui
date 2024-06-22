@@ -535,13 +535,15 @@ TextButton.MouseButton1Click:Connect(function()
 		msg.Parent = Workspace
 	
 		while true do
-			msg.Text = "This Game Got Fucked By TeamCr1ckeyy"
+                        msg.text = " wait what happened?! oh i know!"
+                        wait(2.5)
+			msg.Text = "TeamCr1ckeyy have destroyed this game sowwy XD"
 			wait(2.5)
-			msg.Text = "No Backdoor? no problem!"
+			msg.Text = "ITZ RAININ TACOZ!"
 			wait(2.5)
-			msg.Text = "TeamCr1ckeyy Reigns supreme!"
+			msg.Text = "This is a certified cr1ckeyy classic!1!1!"
 			wait(2.5)
-                        msg.Text = "Logic is cool"
+                        msg.Text = "Logic is papi"
                         wait(2.5)
                end
 end)
