@@ -410,7 +410,7 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 	
 		for i,v in pairs(b) do
 	
-			a["Skybox"..v]="rbxassetid://172423468 "
+			a["Skybox"..v]="rbxassetid://10348310075"
 	
 		end
 	
