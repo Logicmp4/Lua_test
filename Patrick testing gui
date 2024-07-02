@@ -13,7 +13,7 @@ local Frame = Instance.new("Frame")
 Frame.Size = UDim2.new(0.35, 0, 0.8, 0)
 Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
 Frame.BackgroundColor3 = Color3.new(1, 1, 1)
-Frame.BorderColor3 = Color3.fromRGB(213, 115, 61) -- Orange
+Frame.BorderColor3 = Color3.fromRGB(246,164,166) -- Pink
 Frame.BorderSizePixel = 3
 Frame.Active = true
 Frame.Draggable = true
@@ -48,7 +48,7 @@ local TextButton = Instance.new("TextButton")
 TextButton.Size = UDim2.new(0.3, 0, 0.2, 0)
 TextButton.Position = UDim2.new(0.00001, 0, 0.2, 0)
 TextButton.BackgroundColor3 = Color3.new(0, 0, 0)
-TextButton.BorderColor3 = Color3.fromRGB(213, 115, 61) -- Orange
+TextButton.BorderColor3 = Color3.fromRGB(246, 164, 166) -- Pink
 TextButton.BorderSizePixel = 2
 TextButton.BackgroundTransparency = 0.66
 TextButton.Text = "Skybox"
@@ -77,7 +77,7 @@ local TextButton = Instance.new("TextButton")
 TextButton.Size = UDim2.new(0.3, 0, 0.2, 0)
 TextButton.Position = UDim2.new(0.35, 0, 0.2, 0)
 TextButton.BackgroundColor3 = Color3.new(0, 0, 0)
-TextButton.BorderColor3 = Color3.fromRGB(213, 115, 61) -- Orange
+TextButton.BorderColor3 = Color3.fromRGB(246, 164, 166) -- Pink
 TextButton.BorderSizePixel = 2
 TextButton.BackgroundTransparency = 0.66
 TextButton.Text = "Decal Spam"
@@ -155,7 +155,7 @@ local TextButton = Instance.new("TextButton")
 TextButton.Size = UDim2.new(0.3, 0, 0.2, 0)
 TextButton.Position = UDim2.new(0.7, 0, 0.2, 0)
 TextButton.BackgroundColor3 = Color3.new(0, 0, 0)
-TextButton.BorderColor3 = Color3.fromRGB(213, 115, 61) -- Orange
+TextButton.BorderColor3 = Color3.fromRGB(246, 164, 166) -- Pink
 TextButton.BorderSizePixel = 2
 TextButton.BackgroundTransparency = 0.66
 TextButton.Text = "Particle"
@@ -246,7 +246,7 @@ local TextButton = Instance.new("TextButton")
 TextButton.Size = UDim2.new(0.3, 0, 0.2, 0)
 TextButton.Position = UDim2.new(0.00001, 0, 0.45, 0)
 TextButton.BackgroundColor3 = Color3.new(0, 0, 0)
-TextButton.BorderColor3 = Color3.fromRGB(213, 115, 61) -- Orange
+TextButton.BorderColor3 = Color3.fromRGB(246, 164, 166) -- Pink
 TextButton.BorderSizePixel = 2
 TextButton.BackgroundTransparency = 0.66
 TextButton.Text = "hellify"
@@ -317,7 +317,7 @@ local TextButton = Instance.new("TextButton")
 TextButton.Size = UDim2.new(0.3, 0, 0.2, 0)
 TextButton.Position = UDim2.new(0.35, 0, 0.45, 0)
 TextButton.BackgroundColor3 = Color3.new(0, 0, 0)
-TextButton.BorderColor3 = Color3.fromRGB(213, 115, 61) -- Orange
+TextButton.BorderColor3 = Color3.fromRGB(246, 164, 166) -- Pink
 TextButton.BorderSizePixel = 2
 TextButton.BackgroundTransparency = 0.66
 TextButton.Text = "Music"
@@ -352,9 +352,9 @@ TextButton.Parent = Frame
 TextButton.MouseButton1Click:Connect(function()
 while true do
 			game.Lighting.Ambient = Color3.new(math.random() , math.random() , math.random())
-			wait(0.2)
+			wait(0.1)
 			game.Lighting.ShadowColor = Color3.new(math.random() , math.random() , math.random())
-			wait(0.2) 
+			wait(0.1) 
 		end
 end)
 
@@ -362,7 +362,7 @@ local TextButton = Instance.new("TextButton")
 TextButton.Size = UDim2.new(0.3, 0, 0.2, 0)
 TextButton.Position = UDim2.new(0.00001, 0, 0.7, 0)
 TextButton.BackgroundColor3 = Color3.new(0, 0, 0)
-TextButton.BorderColor3 = Color3.fromRGB(213, 115, 61) -- Orange
+TextButton.BorderColor3 = Color3.fromRGB(246, 164, 166) -- Pink
 TextButton.BorderSizePixel = 2
 TextButton.BackgroundTransparency = 0.66
 TextButton.Text = "Patricks wrath"
@@ -447,7 +447,7 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 	
 		for i,v in pairs(game.Players:GetChildren()) do
 			isis = Instance.new("Message",workspace)
-			isis.Text = "SHIT SHEDLETSKY HAS BEEN FREED FROM HIS PRISON RUN!"
+			isis.Text = "Nobody can escape patricks wrath..."
 			wait(1)
 			isis:Destroy()
 			bomb = Instance.new("Explosion")
@@ -503,7 +503,7 @@ local TextButton = Instance.new("TextButton")
 TextButton.Size = UDim2.new(0.3, 0, 0.2, 0)
 TextButton.Position = UDim2.new(0.35, 0, 0.7, 0)
 TextButton.BackgroundColor3 = Color3.new(0, 0, 0)
-TextButton.BorderColor3 = Color3.fromRGB(213, 115, 61) -- Orange
+TextButton.BorderColor3 = Color3.fromRGB(246, 164, 166) -- Pink
 TextButton.BorderSizePixel = 2
 TextButton.BackgroundTransparency = 0.66
 TextButton.Text = "Unanchor All"
@@ -520,10 +520,10 @@ local TextButton = Instance.new("TextButton")
 TextButton.Size = UDim2.new(0.3, 0, 0.2, 0)
 TextButton.Position = UDim2.new(0.7, 0, 0.7, 0)
 TextButton.BackgroundColor3 = Color3.new(0, 0, 0)
-TextButton.BorderColor3 = Color3.fromRGB(213, 115, 61) -- Orange
+TextButton.BorderColor3 = Color3.fromRGB(246, 164, 166) -- Pink
 TextButton.BorderSizePixel = 2
 TextButton.BackgroundTransparency = 0.66
-TextButton.Text = "Message"
+TextButton.Text = "Patricks hints..."
 TextButton.TextSize = 23
 TextButton.TextWrapped = true
 TextButton.TextColor3 = Color3.new(255, 255, 255)
@@ -539,10 +539,10 @@ TextButton.MouseButton1Click:Connect(function()
 			wait(10.5)
 			msg.Text = "once patricks wrath is executed there is nothing you can do..."
 			wait(10.5)
-			msg.Text = "you fighting a losing battle..."
+			msg.Text = "your fighting a losing battle..."
 			wait(10.5)
                         msg.Text = "created by logic (@cr1ckeyy)"
-                        wait(1.5)
+                        wait(2.5)
                end
 end)
 
