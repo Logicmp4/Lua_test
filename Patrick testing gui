@@ -1,5 +1,5 @@
 local gui = Instance.new("ScreenGui")
-gui.Name = "Teamx8x8x8x8 Gui - Client Side"
+gui.Name = "Patrick Gui - Client Side"
 gui.Parent = game.CoreGui
 
 --screengui = gui
@@ -38,7 +38,7 @@ TextLabel.BackgroundColor3 = Color3.new(0, 0, 0)
 TextLabel.BorderColor3 = Color3.new(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.BackgroundTransparency = 1
-TextLabel.Text = "team8x8x8x8 gui v0.6"
+TextLabel.Text = "Patrick gui"
 TextLabel.TextSize = 29
 TextLabel.TextColor3 = Color3.new(255, 255, 255)
 TextLabel.Font = Enum.Font.Code
@@ -365,7 +365,7 @@ TextButton.BackgroundColor3 = Color3.new(0, 0, 0)
 TextButton.BorderColor3 = Color3.fromRGB(213, 115, 61) -- Orange
 TextButton.BorderSizePixel = 2
 TextButton.BackgroundTransparency = 0.66
-TextButton.Text = "Shedletskyify"
+TextButton.Text = "Patricks wrath"
 TextButton.TextSize = 23
 TextButton.TextWrapped = true
 TextButton.TextColor3 = Color3.new(255, 255, 255)
@@ -466,7 +466,7 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 	
 		s.Looped = true
 	
-		s.Pitch = 1 --You can edit these settings.
+		s.Pitch = 0.45 --You can edit these settings.
 	
 		s.Volume = 100 --You can edit these settings.
 	
@@ -488,7 +488,7 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 	
 		for i,v in pairs(game.Players:GetChildren()) do
 			isis = Instance.new("Message",workspace)
-			isis.Text = "SHIT SHEDLETSKY HAS BEEN FREED FROM HIS PRISON RUN!"
+			isis.Text = "Nobody can escape patricks wrath..."
 			wait(1)
 			isis:Destroy()
 			bomb = Instance.new("Explosion")
@@ -535,14 +535,14 @@ TextButton.MouseButton1Click:Connect(function()
 		msg.Parent = Workspace
 	
 		while true do
-			msg.Text = "This Game Got Fucked By Team8x8x8x8 LeL"
-			wait(2.5)
-			msg.Text = "No Backdoor? no problem!"
-			wait(2.5)
-			msg.Text = "Team8x8x8x8 Reigns supreme!"
-			wait(2.5)
-                        msg.Text = "Logic is cool"
-                        wait(2.5)
+			msg.Text = "There is no escape..."
+			wait(10.5)
+			msg.Text = "once patricks wrath is executed there is nothing you can do..."
+			wait(10.5)
+			msg.Text = "you fighting a losing battle..."
+			wait(10.5)
+                        msg.Text = "created by logic (@cr1ckeyy)"
+                        wait(1.5)
                end
 end)
 
@@ -552,7 +552,7 @@ TextLabel.Position = UDim2.new(0.35, 0, 0.85, 0)
 TextLabel.BackgroundColor3 = Color3.new(0, 0, 0)
 TextLabel.BorderColor3 = Color3.new(0, 0, 0)
 TextLabel.BorderSizePixel = 0
-TextLabel.Text = "Creds To: KingHax And Teamc078kidd"
+TextLabel.Text = "logic (@cr1ckeyy)"
 TextLabel.TextSize = 20
 TextLabel.BackgroundTransparency = 1
 TextLabel.TextColor3 = Color3.new(255, 255, 255)
@@ -565,7 +565,7 @@ TextLabel.Position = UDim2.new(0.35, 0, 0.05, 0)
 TextLabel.BackgroundColor3 = Color3.new(0, 0, 0)
 TextLabel.BorderColor3 = Color3.new(0, 0, 0)
 TextLabel.BorderSizePixel = 0
-TextLabel.Text = "Modified by logic"
+TextLabel.Text = "its patrick time"
 TextLabel.TextSize = 28
 TextLabel.BackgroundTransparency = 1
 TextLabel.TextColor3 = Color3.new(255, 255, 255)
