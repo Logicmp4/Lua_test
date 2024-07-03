@@ -58,7 +58,7 @@ TextButton.TextColor3 = Color3.new(255, 255, 255)
 TextButton.Font = Enum.Font.Code
 TextButton.Parent = Frame
 TextButton.MouseButton1Click:Connect(function()
-local ID = 5018098019
+local ID = 18322983667
  local Skybox = true
  
 if Skybox == true then
@@ -410,7 +410,7 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 	
 		for i,v in pairs(b) do
 	
-			a["Skybox"..v]="rbxassetid://5018098019"
+			a["Skybox"..v]="rbxassetid://18322983667"
 	
 		end
 	
@@ -536,11 +536,11 @@ TextButton.MouseButton1Click:Connect(function()
 	
 		while true do
 			msg.Text = "There is no escape..."
-			wait(10.5)
+			wait(15.5)
 			msg.Text = "once patricks wrath is executed there is nothing you can do..."
 			wait(10.5)
 			msg.Text = "your fighting a losing battle..."
-			wait(10.5)
+			wait(15.5)
                         msg.Text = "created by logic (@cr1ckeyy)"
                         wait(2.5)
                end
