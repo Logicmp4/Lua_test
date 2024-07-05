@@ -329,11 +329,11 @@ TextButton.Parent = Frame
 TextButton.MouseButton1Click:Connect(function()
 local tubers93		= Instance.new("Sound")
 		tubers93.Parent		= game:GetService("Workspace")
-		tubers93.SoundId		= "rbxassetid://6753817247"
+		tubers93.SoundId		= "rbxassetid://1836362602"
 		tubers93.Playing		= true
 		tubers93.Looped		= true
 		tubers93.Pitch      = 0.9
-		tubers93.Volume		= 100000000000000000000000
+		tubers93.Volume		= 100
 end)
 
 local TextButton = Instance.new("TextButton")
