@@ -28,7 +28,7 @@ ImageLabel.BackgroundTransparency = 0
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Position = UDim2.new(0.0001, 0, 0.0001, 0)
 ImageLabel.Size = UDim2.new(0.885, 35, 0.83, 54)
-ImageLabel.Image = "rbxassetid://5018098019"
+ImageLabel.Image = "rbxassetid://18349492071"
 ImageLabel.Active = false
 
 local TextLabel = Instance.new("TextLabel")
@@ -87,7 +87,7 @@ TextButton.TextColor3 = Color3.new(255, 255, 255)
 TextButton.Font = Enum.Font.Code
 TextButton.Parent = Frame
 TextButton.MouseButton1Click:Connect(function()
-local ID = 5018098019
+local ID = 18349492071
 
 for i,v in pairs (game.Workspace:GetChildren()) do
 		if v:IsA("Part") then
@@ -165,7 +165,7 @@ TextButton.TextColor3 = Color3.new(255, 255, 255)
 TextButton.Font = Enum.Font.Code
 TextButton.Parent = Frame
 TextButton.MouseButton1Click:Connect(function()
-local ID = 16116964034
+local ID = 18349492071
  local particle = true
  
 if particle == true then
@@ -201,7 +201,7 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 	
 					ParticleEmitter = Instance.new("ParticleEmitter");
 	
-					ParticleEmitter.Texture = ("rbxassetid://5018098019");
+					ParticleEmitter.Texture = ("rbxassetid://18349492071");
 	
 					ParticleEmitter.Parent = Workspace.Head;
 					
@@ -219,7 +219,7 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 	
 			ParticleEmitter = Instance.new("ParticleEmitter");
 	
-			ParticleEmitter.Texture = ("rbxassetid://5018098019");
+			ParticleEmitter.Texture = ("rbxassetid://18349492071");
 	
 			ParticleEmitter.Parent = Workspace;
 			
@@ -232,7 +232,7 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 	
 			ParticleEmitter = Instance.new("ParticleEmitter");
 	
-			ParticleEmitter.Texture = ("rbxassetid://5018098019");
+			ParticleEmitter.Texture = ("rbxassetid://18349492071");
 	
 			ParticleEmitter.Parent = Workspace.Torso;
 			
@@ -297,7 +297,7 @@ for i,v in next,workspace:children''do
 				game.Lighting.Ambient=Color3.new(1,0,0);
 				game.Lighting.FogEnd=200;
 				game.Lighting.FogColor=Color3.new(0,0,0);
-				local dec = 'http://www.roblox.com/asset/?id=19399245';
+				local dec = 'http://www.roblox.com/asset/?id=18322983667';
 				local fac = {'Front', 'Back', 'Left', 'Right', 'Top', 'Bottom'}
 				--coroutine.wrap(function()
 				--for _,__ in pairs(fac) do
@@ -380,7 +380,7 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 	
 					ParticleEmitter = Instance.new("ParticleEmitter");
 	
-					ParticleEmitter.Texture = ("rbxassetid://5018098019");
+					ParticleEmitter.Texture = ("rbxassetid://18349492071");
 	
 					ParticleEmitter.Parent = Workspace.Head;
 	
@@ -396,7 +396,7 @@ for Get,Players in ipairs(game.Players:GetPlayers()) do
 	
 			ParticleEmitter = Instance.new("ParticleEmitter");
 	
-			ParticleEmitter.Texture = ("rbxassetid://5018098019");
+			ParticleEmitter.Texture = ("rbxassetid://18349492071");
 	
 			ParticleEmitter.Parent = Workspace;
 	
@@ -506,7 +506,7 @@ TextButton.BackgroundColor3 = Color3.new(0, 0, 0)
 TextButton.BorderColor3 = Color3.fromRGB(246, 164, 166) -- Pink
 TextButton.BorderSizePixel = 2
 TextButton.BackgroundTransparency = 0.66
-TextButton.Text = "Unanchor All"
+TextButton.Text = "DEV"
 TextButton.TextSize = 20
 TextButton.TextWrapped = true
 TextButton.TextColor3 = Color3.new(255, 255, 255)
