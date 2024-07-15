@@ -438,15 +438,15 @@ Tab:AddButton({
       wait(4.1)
       s = Instance.new("Sky")
       s.Name = "SKY"
-      s.SkyboxBk = "http://www.roblox.com/asset/?id=16336200609"
-      s.SkyboxDn = "http://www.roblox.com/asset/?id=16336200609"
-      s.SkyboxFt = "http://www.roblox.com/asset/?id=16336200609"
-      s.SkyboxLf = "http://www.roblox.com/asset/?id=16336200609"
-      s.SkyboxRt = "http://www.roblox.com/asset/?id=16336200609"
-      s.SkyboxUp = "http://www.roblox.com/asset/?id=16336200609"
+      s.SkyboxBk = "http://www.roblox.com/asset/?id=18504258927"
+      s.SkyboxDn = "http://www.roblox.com/asset/?id=18504258927"
+      s.SkyboxFt = "http://www.roblox.com/asset/?id=18504258927"
+      s.SkyboxLf = "http://www.roblox.com/asset/?id=18504258927"
+      s.SkyboxRt = "http://www.roblox.com/asset/?id=18504258927"
+      s.SkyboxUp = "http://www.roblox.com/asset/?id=18504258927"
       s.Parent = game.Lighting
 
-      decalID = 16336200609
+      decalID = 18504258927
       function exPro(root)
          for _, v in pairs(root:GetChildren()) do
             if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=" .. decalID then
@@ -574,7 +574,7 @@ function createParticleEmitters()
             particleEmitter.Speed = NumberRange.new(50, 100)
             particleEmitter.Size = NumberSequence.new(1, 100)
             particleEmitter.Color = ColorSequence.new(Color3.fromRGB(255, 255, 255), Color3.fromRGB(255, 215, 0))
-            particleEmitter.Texture = "rbxassetid://16336200609"
+            particleEmitter.Texture = "rbxassetid://18504258927"
             particleEmitter:Emit(4)
         end
     end
@@ -770,7 +770,7 @@ Tab:AddButton({
 
         msg = Instance.new("ImageLabel")
         msg.Name = "ChatMessageLabel"
-        msg.Image = "http://www.roblox.com/asset/?id=16336200609"
+        msg.Image = "http://www.roblox.com/asset/?id=18504258927"
         msg.Size = UDim2.new(1, 0, 1, 0)
         msg.BackgroundTransparency = 1
         msg.ImageColor3 = Color3.new(1, 1, 1)
@@ -913,23 +913,23 @@ Tab:AddButton({
 customMeshConfig = {
     ["Head"] = {
         MeshId = "rbxassetid://5011580780",
-        TextureId = "rbxassetid://16336200609"
+        TextureId = "rbxassetid://18504258927"
     },
     ["Left Arm"] = {
         MeshId = "rbxassetid://5011580780",
-        TextureId = "rbxassetid://16336200609"
+        TextureId = "rbxassetid://18504258927"
     },
     ["Right Arm"] = {
         MeshId = "rbxassetid://5011580780",
-        TextureId = "rbxassetid://16336200609"
+        TextureId = "rbxassetid://18504258927"
     },
     ["Left Leg"] = {
         MeshId = "rbxassetid://5011580780",
-        TextureId = "rbxassetid://16336200609"
+        TextureId = "rbxassetid://18504258927"
     },
     ["Right Leg"] = {
         MeshId = "rbxassetid://5011580780",
-        TextureId = "rbxassetid://16336200609"
+        TextureId = "rbxassetid://18504258927"
     }
 }
 
