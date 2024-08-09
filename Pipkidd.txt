@@ -1,5 +1,3 @@
--- scripts by me ui by k00pkidd, and guy that transformed the gui into fe script.
- 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local ScrollingFrame = Instance.new("ScrollingFrame")
